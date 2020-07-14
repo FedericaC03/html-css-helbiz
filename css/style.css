@@ -1,0 +1,13 @@
+.main-menu {
+  text-align: right;
+}
+
+.main-menu li {
+  padding-right: 35px;
+  list-style: none;
+  display: inline;
+}
+
+.main-menu li a {
+  text-decoration: none;
+}
