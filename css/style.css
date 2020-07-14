@@ -106,7 +106,6 @@ h1 {
   margin-left: 5%;
   margin-top: 12%;
   line-height: 50px;
-  margin-bottom: 12%;
 }
 
 .helbiz-go-bike p {
@@ -131,7 +130,107 @@ h1 {
 /* /prima sezione */
 
 /* seconda sezione */
-
+.old-man {
+  height:900px;
+  background-image: url("../img/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .phone {
+  margin-top: 50px;
+}
+.phone h2 {
+  font-size: 35px;
+  line-height: 50px;
+  text-align: left;
+} */
 
 /* /seconda sezione */
+.smart-mobility {
+  height: 550px;
+  margin-top: 130px;
+}
+.smart {
+ background-image:url("../img/scooter.jfif");
+ background-size: contain;
+ background-repeat: no-repeat;
+ height: 100%;
+}
+
+.smart-mobility h2 {
+  width: 60%;
+  color: white;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 400;
+}
+.smart-mobility p {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+  width: 55%;
+  margin-bottom: 20px;
+}
+.learn , .system {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+.monopattino {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 12%;
+  line-height: 50px;
+}
+/* terza sezione */
+.find-us {
+  margin:0;
+}
+.gradiente {
+  height: 800px;
+  background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+  width: 49%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.gradiente h2 , .city h2 {
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 60px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.city {
+  background-image: url("../img/city.jpg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 49%;
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.system {
+  margin-right: 20px;
+}
+
+.fa-angle-right {
+  margin-left: 5px;
+}
+
+.gradiente img {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
 /* /main */
