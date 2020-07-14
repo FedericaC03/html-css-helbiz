@@ -9,6 +9,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 header li {
   display: inline;
@@ -16,9 +17,13 @@ header li {
 .header-top {
   height: 60px;
   line-height: 60px;
+  position: fixed;
+  width: 100%;
+  background-color:white;
+  z-index: 1;
 }
 
-.header-top .logo {
+.header-top .logo-white {
   height: 14px;
 }
 
@@ -34,20 +39,20 @@ header li {
 .main-menu li a {
   text-decoration: none;
   font-size: 10px;
-  color: #FFFFFF;
+  color: black;
   font-weight: bold;
 }
 
 .side-menu li a {
   text-decoration: none;
   font-size: 10px;
-  color: #FFFFFF;
+  color:black;
   font-weight: bold;
 }
 
 .English {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   padding: 8px;
 }
 
@@ -90,6 +95,10 @@ h1 {
   height: 50px;
   display: inline;
   margin: 20px;
+}
+
+.bars {
+  display: none;
 }
 /*/ header */
 
@@ -234,3 +243,198 @@ h1 {
   left: 25%;
 }
 /* /main */
+
+/* footer */
+footer {
+  color: white;
+  background-color: black;
+  text-align: left;
+  height: 600px;
+}
+
+footer .logo-white {
+  width: 30%;
+  margin-bottom:100px;
+  margin-top: 75px;
+}
+
+.footer-top h2 {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  width: 65%;
+}
+/* /footer */
+
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.head-list {
+  font-size: 20px;
+  margin-top: 75px;
+  font-weight: 400;
+}
+
+.head-list ul li {
+  margin-top: 10px;
+}
+
+
+/* Smartphone < 768px */
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .bars {
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    color: black;
+  }
+  header {
+    height: 450px;
+  }
+
+  .header-top .logo-white {
+    height: 15px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+  }
+  .header-bottom h1 {
+    width: 520px;
+    font-size: 35px;
+  }
+  .header-bottom h3 {
+    font-size: 17px;
+    width: 530px;
+  }
+
+.old-man {
+  margin-top: 450px;
+  background-position-y: 25%;
+}
+.smart-mobility {
+  height: 490px;
+  margin-bottom: 50px;
+}
+.smart {
+  background-position: right;
+  background-size: cover;
+
+}
+.monopattino h2 {
+  margin-top: 60px;
+  margin-left: 20%;
+  font-size: 35px;
+  font-weight: bold;
+  width: 50%;
+}
+.monopattino p{
+  margin-left: 16%;
+}
+.city {
+  margin-left: 0;
+}
+.gradiente img {
+  position: absolute;
+  left: 20%;
+}
+
+.city {
+  background-size:cover;
+  background-position: center;
+}
+footer {
+  height: 1200px;
+}
+.contact {
+  margin-left: -40px;
+}
+}
+
+
+
+
+/* Tablet 769 - 992 */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* header */
+  nav {
+    display: none;
+  }
+  .bars {
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    color:  black;
+  }
+
+  .header-bottom h1 {
+    width: 740px;
+  }
+
+  .header-top .logo-white {
+    height: 15px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+  }
+
+/* main */
+.monopattino h2 {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 40px;
+  width: 70%;
+}
+
+.monopattino p {
+  margin-left: 40px;
+  width: 325px;
+}
+
+.smart {
+  height: 500px;
+  background-size: auto;
+  background-position-x: 35%;
+}
+
+.gradiente img {
+ position: absolute;
+ left: 7.5%;
+}
+.city {
+  background-size:cover;
+  background-position: center;
+}
+
+/* footer */
+footer {
+  height: 1000px;
+}
+
+.footer-top h2 {
+  width: auto;
+  font-weight: bold;
+}
+
+.head-list {
+  font-weight: bolder;
+  margin-top: 20;
+}
+
+.programs {
+  /* margin-top: 250px; */
+}
+}
