@@ -1,13 +1,93 @@
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+header {
+  height: 650px;
+  background-image: url("../img/helbiz.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header li {
+  display: inline;
+}
+.header-top {
+  height: 60px;
+  line-height: 60px;
+}
+
+.header-top .logo {
+  height: 14px;
+}
+
 .main-menu {
   text-align: right;
 }
 
 .main-menu li {
-  padding-right: 35px;
+  padding-right: 40px;
   list-style: none;
-  display: inline;
 }
 
 .main-menu li a {
   text-decoration: none;
+  font-size: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
 }
+
+.side-menu li a {
+  text-decoration: none;
+  font-size: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.English {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 8px;
+}
+
+.btn {
+  background-color: black;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 15px;
+}
+header{
+  position: relative;
+}
+.title {
+  top:50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50% , -50%);
+}
+
+h1 {
+  font-size: 50px;
+  color:white;
+}
+
+.header-bottom h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.header-bottom ul {
+  text-align: center;
+}
+.header-bottom img {
+  height: 50px;
+  display: inline;
+  margin: 20px;
+}
+/*/ header */
